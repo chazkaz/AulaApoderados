@@ -1,0 +1,77 @@
+.blanco{
+
+    min-width: 300px;
+    max-width: 80%;
+    height: 340px;
+    margin: 5rem ;
+    background: rgba(239, 20, 20, 0.055);
+    padding: 1rem 3rem 2rem 3rem;
+    margin: 0px auto;
+    border-radius: 2.5rem;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #d0cbd1, -13px -13px 20px #ffffff;
+    color: black;
+    margin-top: 5rem;
+
+}
+.Azul{
+    background: rgb(53, 125, 150);
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    margin-left: 60px;
+    border-radius: 30px;
+    padding: 1rem;
+    border: none;
+    box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.8), inset 5px 5px 10px
+        rgba(0, 0, 0, 0.1);
+    border: 0 none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.Gris{
+    display: inline-block;
+    margin-left: 100px ;
+    width: 30%;
+    border-radius: 30px;
+    padding: 1rem;
+    
+    box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.8), inset 5px 5px 10px
+        rgba(0, 0, 0, 0.1);
+    border: 0 none;
+    background: lightgray;
+}
+.GrisPromedio{
+    display: inline-block;
+    margin-left: 80px ;
+    width: 10%;
+    border-radius: 30px;
+    padding: 1rem;
+    border: none;
+    box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.8), inset 5px 5px 10px
+        rgba(0, 0, 0, 0.1);
+    border: 0 none;
+    background: lightgray;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 30px ;
+}
+.Obs{
+    min-width: 300px;
+    max-width: 80%;
+    height: 100px;
+    margin: 5rem ;
+    margin-bottom: 10px;
+    background: rgba(239, 20, 20, 0.055);
+    padding: 1rem 3rem 2rem 3rem;
+    margin: 0px auto;
+    border-radius: 2.5rem;
+    background-color: #ecf0f3;
+    
+    color: black;
+    margin-top: 5rem;
+}

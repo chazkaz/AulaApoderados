@@ -1,0 +1,34 @@
+*{
+    margin: 5;
+    padding: 5;
+}
+
+body {
+    background: linear-gradient(to bottom, #DFDFE2 , #5A96B8, #598D99 , #A19FB0 );
+    width: 100;
+    height: 100;
+    background-size: 400% 400%;
+  }
+
+
+.titulo{
+    color: black;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 40px;
+}
+
+.caja{
+    margin: 8px;
+    background-color: blue;
+}
+
+@media (max-width:768px){
+    .titulo{
+        color: black;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    }
+
+}

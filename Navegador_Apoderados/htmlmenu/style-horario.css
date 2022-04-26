@@ -1,0 +1,29 @@
+table{
+    border: 1px solid black;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-collapse: collapse;
+}
+
+table td{
+    padding: 15px;
+    border:1px solid black;
+}
+
+table td:hover{
+    background: #ccc;
+}
+
+.claro{
+    background: lightgray;
+}
+
+.oscuro{
+    background: darkgrey;
+}
+
+#dias{
+    background: rgb(60, 60, 230);
+    color: white;
+}

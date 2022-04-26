@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    background : #CED7E4; 
+
+}
+
+#boton-menu {
+    display: none;
+}
+
+header label{
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+.menu{
+    position: absolute;
+    background : #CED7E4;
+    width: 20%;
+    margin-left: -20%;
+    transition: all 1s;
+    border-radius: 10px;
+}
+
+.menu ul {
+    flex-direction: column;
+}
+
+.menu li{
+    border-top: 1px solid black;
+    padding: 15px 20px;
+}
+
+#boton-menu:checked ~ .menu{ 
+    margin: 0;
+}
+
+#tituloprincipal{
+    display: inline-block;
+    padding-left: 40%;
+    font-size: 30px;
+    font-family: "FRESHMAN"; 
+    font-style: italic;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+a:link {
+    color:black;
+    text-decoration: none;
+}
